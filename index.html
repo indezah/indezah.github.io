@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/223cbc8c41.js" crossorigin="anonymous"></script>
+    <title>Nisura Indisa</title>
+    <style>
+        body{
+            transition: all 1s;
+            width: 97vw;
+            background-color: black;
+            background: url(bg_m.png);
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+            font-family: 'Rubik', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media only screen and (min-width: 1200px){
+            body{
+                background: url(bg.png);
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        h1{
+            font-weight: normal;
+        }
+        .sec1{
+
+            max-width: 350px;
+            background-color:rgba(255, 255, 255, 0.2);
+            backdrop-filter:blur(50px);
+            border-radius: 40px;
+            margin: 15px;
+            margin-top: 40px;
+            padding: 20px;
+            padding-top: 50px;
+            padding-bottom: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+        }
+        #desc{
+            font-style: italic;
+            font-size: 15px;
+            width: 275px;
+        }
+        hr{
+            width: 250px;
+        }
+        .sec1 img{
+            height: 153px;
+        }
+        #sec2{
+            flex-direction: row;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: 300px;
+        }
+        .sb{
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 40px;
+            width: 50px;
+            padding: 5px 0px 0 0px;
+            border-radius: 10px;
+            border: 0px;
+            color: white;
+        }
+        .sb i{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sec1">
+        <img src="pp.png" alt="">
+        <h1>Nisura Indisa</h1><p>Undergraduate at the University of Colombo School of Computing</p>
+        <hr>
+        <p id="desc">
+            Tech enthusiast. Web Designer.
+WordPress Developer. UI Enthusiast.
+Somewhat dank memer.
+        </p>
+    </div>
+    <div id="sec2" class="sec1">
+        <div class="sb" id="insta"><a href="https://www.instagram.com/nisuraaaa/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+        <div class="sb" id="git"><a href="https://github.com/indezah" target="_blank"><i class="fab fa-github"></i></a></div>
+        <div class="sb" id="li"><a href="https://www.linkedin.com/in/nisura-indisa-009894195/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+        <div class="sb" id="email"><a href="mailto:nisura@outlook.com" target="_blank"><i class="fas fa-at"></i></a></div>
+        <div class="sb" id="fb"><a href="https://www.facebook.com/nisuraindisa1" target="_blank"><i class="fab fa-facebook"></i></a></div>
+    </div>
+</body>
+</html>
